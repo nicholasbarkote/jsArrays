@@ -23,3 +23,9 @@ console.log(eval('2+2'));
     The completion value of evaluating the given code. If the completion
     value is empty, undefined is returned.
 */
+
+const x = 2;
+const y = 39;
+const z = '42';
+eval('x + y + 1'); // returns 42
+eval(z);           // returns 42
